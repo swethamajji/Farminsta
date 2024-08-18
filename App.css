@@ -1,0 +1,619 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  background-image: url(./back2.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+/* Container Styles */
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Banner Styles */
+.banner {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label Styles */
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input Styles */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Radio Button Styles */
+input[type='radio'] {
+  margin-right: 5px;
+}
+
+label {
+  margin-right: 15px;
+}
+
+/* Social Media Styles */
+.social-media {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-media h3 {
+  margin-bottom: 10px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+/* App.css */
+
+/* Display Data Styles */
+.display-data {
+  margin-top: 20px;
+}
+
+.display-data p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Actions Styles */
+.actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.actions button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.actions button:hover {
+  background-color: #0056b3;
+}
+/* App.css */
+
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 10px 250px ;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Existing styles for other components */
+.App {
+  text-align: center;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  margin: 0 10px;
+  color: #007bff;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+.display-data, .search-form {
+  margin: 20px;
+}
+
+/* Styling the navbar */
+/*  */
+
+.navbar {
+  background-color: blueviolet; /* Background color of the navbar */
+  padding: 10px 20px; /* Padding inside the navbar */
+}
+
+/* Styling the list inside the navbar */
+.navbar-list {
+  list-style-type: none; /* Remove bullet points */
+  margin: 50%; /* Remove default margin */
+  padding: 40%; /* Remove default padding */
+  display: flex; /* Flexbox to align items horizontally */
+  justify-content: space-evenly; /* Center items horizontally */
+  gap: 100px; /* Space between items */
+}
+
+/* Styling the list items */
+.navbar-list li {
+  margin:150px; /* Remove extra margin */
+}
+
+/* Styling the links */
+.navbar-list a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color */
+  font-size: 18px; /* Font size */
+  padding: 5px 10px; /* Padding around the links */
+}
+
+/* Styling the links on hover */
+.navbar-list a:hover {
+  color: #ddd; /* Change color on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* src/App.css */
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: blueviolet;
+  padding: 10px 20px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar-list li {
+  margin: 0;
+}
+
+.navbar-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar-list a:hover {
+  color: #ddd;
+  text-decoration: underline;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+/* Base styles for form */
+.App {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: darkviolet;
+}
+
+.social-media {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-link {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-control {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 12px;
+  }
+}
+
+
+
+/* Base styles for DisplayPage */
+.App {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+header.banner {
+  margin-bottom: 20px;
+}
+
+.display-data {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.display-data p {
+  margin: 10px 0;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkviolet;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  .display-data {
+    padding: 8px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .display-data p {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+
+/* Base styles for FormPage */
+.App {
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1000px; /* Max width to center align on large screens */
+  margin: 0 auto;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: darkviolet;
+}
+
+.social-media {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-link {
+  margin: 0 10px;
+  color: blueviolet;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .social-link {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .form-control {
+    padding: 6px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .social-link {
+    display: block;
+    margin: 5px 0;
+    font-size: 12px;
+  }
+}
+
+
+
+/* Base styles for Navbar */
+.navbar {
+  background-color: blueviolet; /* Background color of the navbar */
+  padding: 10px 20px; /* Padding inside the navbar */
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Flexbox to align items horizontally */
+  justify-content: space-around; /* Evenly space out items */
+}
+
+.navbar li {
+  margin: 0; /* Remove default margin */
+}
+
+.navbar a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color */
+  font-size: 18px; /* Font size */
+  padding: 10px 15px; /* Padding around links */
+}
+
+.navbar a:hover {
+  color: #ddd; /* Change color on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .navbar a {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    padding: 8px 10px; /* Adjust padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar a {
+    font-size: 14px; /* Adjust font size for very small screens */
+    padding: 6px 8px; /* Adjust padding */
+  }
+}
